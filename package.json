@@ -1,0 +1,40 @@
+{
+  "name": "@quoin/eslint-config-quoin",
+  "version": "0.1.0",
+  "description": "Sharable eslint configs",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --fix --config=index.js *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Quoin/eslint-config-quoin.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": {
+    "name": "Hữu Ðà Trần",
+    "email": "HuuDa.Tran@quoininc.com",
+    "url": "https://www.quoininc.com/staff/huu-da-tran/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Quoin/eslint-config-quoin/issues"
+  },
+  "homepage": "https://github.com/Quoin/eslint-config-quoin#readme",
+  "peerDependencies": {
+    "eslint": ">=3"
+  },
+  "devDependencies": {
+    "eslint": "3.19.0"
+  },
+  "dependencies": {
+    "eslint-config-standard": "10.2.1",
+    "eslint-plugin-html": "2.0.1",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-node": "4.2.2",
+    "eslint-plugin-promise": "3.5.0",
+    "eslint-plugin-standard": "3.0.1"
+  }
+}
