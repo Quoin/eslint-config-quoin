@@ -19,3 +19,13 @@ In your `.eslintrc.test.json`, use as follow:
       "root": true,
       "extends": "@quoin/eslint-config-quoin/node-test"
     }
+
+In your `.eslintrc.client.json`, use as follow:
+
+    {
+      "root": true,
+      "extends": "@quoin/eslint-config-quoin/client",
+      "env": {
+        "jquery": true
+      }
+    }
