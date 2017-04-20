@@ -18,6 +18,9 @@ module.exports = {
         'indent': ['error', 4, {
             SwitchCase: 1
         }],
+        'no-unused-vars': ['error', {
+            "args": 'none'
+        }],
         'quote-props': ['error', 'consistent-as-needed'],
         'quotes': 'off',
         'semi': ['error', 'always'],
