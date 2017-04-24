@@ -1,4 +1,5 @@
 module.exports = {
+    extends: "standard",
     parserOptions: {
         ecmaVersion: 6
     },
@@ -19,7 +20,7 @@ module.exports = {
             SwitchCase: 1
         }],
         'no-unused-vars': ['error', {
-            "args": 'none'
+            args: 'none'
         }],
         'quote-props': ['error', 'consistent-as-needed'],
         'quotes': 'off',
