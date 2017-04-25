@@ -1,5 +1,9 @@
 # Releases
 
+## 0.1.4 - 2017-04-25
+
+- Fixed peerDependencies to work with older version of npm.
+
 ## 0.1.3 - 2017-04-24
 
 - Extending "standard" rules.
