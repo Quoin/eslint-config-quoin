@@ -9,7 +9,8 @@ module.exports = {
     plugins: [
         'standard',
         'promise',
-        'html'
+        'html',
+        'json'
     ],
     rules: {
         'brace-style': ['error', '1tbs', {
@@ -17,7 +18,24 @@ module.exports = {
         }],
         'curly': ['error', 'all'],
         'indent': ['error', 4, {
-            SwitchCase: 1
+            SwitchCase: 1,
+            VariableDeclarator: 1,
+            outerIIFEBody: 1,
+            MemberExpression: 1,
+            FunctionDeclaration: {
+                parameters: 2,
+                body: 1
+            },
+            FunctionExpression: {
+                parameters: 2,
+                body: 1
+            },
+            CallExpression: {
+                arguments: 1
+            },
+            ArrayExpression: 1,
+            ObjectExpression: 1,
+            flatTernaryExpressions: true
         }],
         'no-unused-vars': ['error', {
             args: 'none'

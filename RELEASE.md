@@ -1,5 +1,10 @@
 # Releases
 
+## 0.2.0 - 2017-06-19
+
+- Upgraded to eslint@4.0.0
+- Adding more config around `indent`.
+
 ## 0.1.4 - 2017-04-25
 
 - Fixed peerDependencies to work with older version of npm.
