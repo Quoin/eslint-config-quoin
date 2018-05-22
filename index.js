@@ -37,6 +37,10 @@ module.exports = {
             ObjectExpression: 1,
             flatTernaryExpressions: true
         }],
+        'no-restricted-globals': ['error', {
+            name: 'Promise',
+            message: "Define Promise in each file"
+        }],
         'no-unused-vars': ['error', {
             args: 'none'
         }],

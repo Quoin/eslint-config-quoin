@@ -1,10 +1,11 @@
 {
   "name": "@quoin/eslint-config-quoin",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Sharable eslint configs",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint --fix --config=index.js *.js"
+    "lint": "eslint --fix --config=index.js *.js",
+    "prepublish": "npm run lint"
   },
   "repository": {
     "type": "git",
@@ -24,24 +25,24 @@
   },
   "homepage": "https://github.com/Quoin/eslint-config-quoin#readme",
   "devDependencies": {
-    "eslint": "4.0.0",
-    "eslint-plugin-html": "3.0.0",
-    "eslint-plugin-import": "2.3.0",
+    "eslint": "4.19.x",
+    "eslint-plugin-html": "4.0.x",
+    "eslint-plugin-import": "2.12.x",
     "eslint-plugin-json": "1.2.0",
-    "eslint-plugin-node": "5.0.0",
-    "eslint-plugin-promise": "3.5.0",
-    "eslint-plugin-standard": "3.0.1"
+    "eslint-plugin-node": "6.0.x",
+    "eslint-plugin-promise": "3.7.x",
+    "eslint-plugin-standard": "3.1.x"
   },
   "dependencies": {
-    "eslint-config-standard": "10.2.1"
+    "eslint-config-standard": "11.0.0"
   },
   "peerDependencies": {
     "eslint": ">=4.0.0",
-    "eslint-plugin-html": ">=3.0.0",
-    "eslint-plugin-import": ">=2.3.0",
+    "eslint-plugin-html": ">=4.0.0",
+    "eslint-plugin-import": ">=2.12.0",
     "eslint-plugin-json": ">=1.2.0",
-    "eslint-plugin-node": ">=5.0.0",
-    "eslint-plugin-promise": ">=3.5.0",
-    "eslint-plugin-standard": ">=3.0.0"
+    "eslint-plugin-node": ">=6.0.0",
+    "eslint-plugin-promise": ">=3.7.0",
+    "eslint-plugin-standard": ">=3.1.0"
   }
 }

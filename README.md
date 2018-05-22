@@ -29,3 +29,7 @@ In your `.eslintrc.client.json`, use as follow:
         "jquery": true
       }
     }
+
+### grunt-eslint
+
+If you are using `grunt-eslint`, add the same line in your grunt configs.

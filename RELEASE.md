@@ -1,5 +1,9 @@
 # Releases
 
+## 0.3.0 - 2018-05-22
+
+- Force definition of `Promise` in each file.
+
 ## 0.2.0 - 2017-06-19
 
 - Upgraded to eslint@4.0.0
