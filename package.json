@@ -1,6 +1,6 @@
 {
   "name": "@quoin/eslint-config-quoin",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Sharable eslint configs",
   "main": "index.js",
   "scripts": {
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/Quoin/eslint-config-quoin#readme",
   "devDependencies": {
+    "eslint-config-standard": "12.0.0",
     "eslint": "4.19.x",
     "eslint-plugin-html": "4.0.x",
     "eslint-plugin-import": "2.12.x",
@@ -32,9 +33,6 @@
     "eslint-plugin-node": "6.0.x",
     "eslint-plugin-promise": "3.7.x",
     "eslint-plugin-standard": "3.1.x"
-  },
-  "dependencies": {
-    "eslint-config-standard": "11.0.0"
   },
   "peerDependencies": {
     "eslint": ">=4.0.0",

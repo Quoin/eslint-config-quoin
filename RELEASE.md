@@ -1,5 +1,9 @@
 # Releases
 
+## 0.3.1 - 2019-05-24
+
+- Warpjs #238 Fix for eslint errors.
+
 ## 0.3.0 - 2018-05-22
 
 - Force definition of `Promise` in each file.
