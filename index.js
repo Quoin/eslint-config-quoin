@@ -1,7 +1,7 @@
 module.exports = {
     extends: "standard",
     parserOptions: {
-        ecmaVersion: 6
+        ecmaVersion: 2018
     },
     env: {
         node: true
@@ -13,11 +13,16 @@ module.exports = {
         'json'
     ],
     rules: {
-        'brace-style': ['error', '1tbs', {
+        'array-bracket-spacing': [ 'error', 'always', {
+            singleValue: true,
+            objectsInArrays: false,
+            arraysInArrays: false
+        }],
+        'brace-style': [ 'error', '1tbs', {
             allowSingleLine: false
         }],
-        'curly': ['error', 'all'],
-        'indent': ['error', 4, {
+        'curly': [ 'error', 'all' ],
+        'indent': [ 'error', 4, {
             SwitchCase: 1,
             VariableDeclarator: 1,
             outerIIFEBody: 1,
@@ -37,17 +42,17 @@ module.exports = {
             ObjectExpression: 1,
             flatTernaryExpressions: true
         }],
-        'no-restricted-globals': ['error', {
+        'no-restricted-globals': [ 'error', {
             name: 'Promise',
             message: "Define Promise in each file"
         }],
-        'no-unused-vars': ['error', {
+        'no-unused-vars': [ 'error', {
             args: 'none'
         }],
-        'quote-props': ['error', 'consistent-as-needed'],
+        'quote-props': [ 'error', 'consistent-as-needed' ],
         'quotes': 'off',
-        'semi': ['error', 'always'],
-        'space-before-function-paren': ['error', {
+        'semi': [ 'error', 'always' ],
+        'space-before-function-paren': [ 'error', {
             anonymous: 'never',
             named: 'never',
             asyncArrow: 'ignore'

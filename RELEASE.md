@@ -1,5 +1,9 @@
 # Releases
 
+## 0.3.2 - 2019-07-11
+
+- Updating libraries and set ecmaversion:2018.
+
 ## 0.3.1 - 2019-05-24
 
 - Warpjs #238 Fix for eslint errors.
