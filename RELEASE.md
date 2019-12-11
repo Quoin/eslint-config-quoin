@@ -1,5 +1,9 @@
 # Releases
 
+## 0.3.3 - 2019-12-11
+
+- Adding config for client-side react tests.
+
 ## 0.3.2 - 2019-07-11
 
 - Updating libraries and set ecmaversion:2018.
