@@ -1,5 +1,9 @@
 # Releases
 
+## 1.0.0-rc.1 - 2021-06-15
+
+- Upgrading packages and node@14.
+
 ## 0.3.3 - 2019-12-11
 
 - Adding config for client-side react tests.
