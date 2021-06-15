@@ -7,7 +7,6 @@ module.exports = {
         node: true
     },
     plugins: [
-        'standard',
         'promise',
         'html',
         'json'
