@@ -1,19 +1,18 @@
 {
   "name": "@quoin/eslint-config-quoin",
-  "version": "1.0.0-rc.2",
+  "version": "2.0.0",
   "description": "Sharable eslint configs",
   "main": "index.js",
-  "engines": {
-    "node": ">=14.15.0"
-  },
   "publishConfig": {
     "access": "public",
     "tag": "node14"
   },
+  "engines": {
+    "node": ">=14.15.0"
+  },
   "scripts": {
     "eslint": "eslint --fix --config=index.js *.js",
-    "prepack": "npm run eslint",
-    "test": "mocha *.test.js"
+    "prepack": "npm run eslint"
   },
   "repository": {
     "type": "git",

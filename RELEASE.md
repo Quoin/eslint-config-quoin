@@ -1,5 +1,9 @@
 # Releases
 
+## 2.0.0 - 2021-06-18
+
+- Trying to avoid `-rc` semver.
+
 ## 1.0.0-rc.1 - 2021-06-15
 
 - Upgrading packages and node@14.
